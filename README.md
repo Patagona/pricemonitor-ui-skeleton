@@ -15,7 +15,9 @@ When starting to develop a Pricemonitor module you use this project as a startin
 :pencil: This repository only contains the seed project. When developing a specific module you clone/copy this repo and adapt it accordingly, see [`utils/create-new-pricemonitor-module.sh`](utils/create-new-pricemonitor-module.sh).
 
 ## Instructions
-:warning: Warning: The `lib` and `example` code is compiled separately.
+:warning: **Warning:** The `lib` and `example` code is compiled separately.
+
+:warning: **Warning:** Please use `yarn` instead of `npm` as a package manager!
 
 Only once or when dependencies are added:
 ```bash
