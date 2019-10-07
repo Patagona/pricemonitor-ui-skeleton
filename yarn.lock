@@ -438,6 +438,11 @@ binary-extensions@^1.0.0:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.13.1.tgz#598afe54755b2868a5330d2aff9d4ebb53209b65"
 
+bluebird@2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
+  integrity sha1-U0uQM8AiyVecVro7Plpcqvu2UOE=
+
 bluebird@^3.5.3:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.4.tgz#d6cc661595de30d5b3af5fcedd3c0b3ef6ec5714"
@@ -3043,9 +3048,9 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-"pricemonitor-core@https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-core.v0.0.537.tar.gz":
+"pricemonitor-core@https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-core.v0.0.619.tar.gz":
   version "1.0.0"
-  resolved "https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-core.v0.0.537.tar.gz#a6147a39158fe83de2821f8e72ffd78f269c8ab3"
+  resolved "https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-core.v0.0.619.tar.gz#c50b9239aca1747f91185c66bf44bc60eff2f960"
   dependencies:
     angular-pan-zoom "1.0.18"
     angular-ui-bootstrap "1.2.0"
@@ -3056,9 +3061,11 @@ pretty-error@^2.0.2:
     ng-tags-input "2.3.0"
     ui-select "0.19.8"
 
-"pricemonitor-share@https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-share.v0.0.537.tar.gz":
+"pricemonitor-share@https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-share.v0.0.619.tar.gz":
   version "1.0.0"
-  resolved "https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-share.v0.0.537.tar.gz#ece044b97f8c33d3ebf2350a214ec3152a333145"
+  resolved "https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-share.v0.0.619.tar.gz#59be0f4fdc9ccb9454b83444e088432877e3b00d"
+  dependencies:
+    bluebird "2.11.0"
 
 private@~0.1.5:
   version "0.1.8"
