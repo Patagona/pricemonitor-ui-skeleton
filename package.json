@@ -8,7 +8,7 @@
     "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
-    "jquery": "3.4.0",
+    "jquery": "3.5.0",
     "pricemonitor-core": "https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-core.v0.0.619.tar.gz",
     "pricemonitor-share": "https://s3-eu-west-1.amazonaws.com/patagona.ui.assets/packages/pricemonitor-share.v0.0.619.tar.gz"
   },
